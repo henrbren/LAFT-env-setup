@@ -1,7 +1,7 @@
-Laptop
+LAFT-env-setup
 ======
 
-Laptop is a script to set up a macOS laptop for web and mobile development.
+LAFT-env-setup is a script to set up a macOS laptop for web and mobile development.
 
 It can be run multiple times on the same machine safely.
 It installs, upgrades, or skips packages
@@ -29,7 +29,7 @@ Install
 Download the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/henrbren/LAFT-env-setup/master/mac
 ```
 
 Review the script (avoid running scripts you haven't read!):
@@ -50,21 +50,6 @@ Optionally, review the log:
 less ~/laptop.log
 ```
 
-Optionally, [install thoughtbot/dotfiles][dotfiles].
-
-[dotfiles]: https://github.com/thoughtbot/dotfiles#install
-
-Debugging
----------
-
-Your last Laptop run will be saved to `~/laptop.log`.
-Read through it to see if you can debug the issue yourself.
-If not, copy the lines where the script failed into a
-[new GitHub Issue](https://github.com/thoughtbot/laptop/issues/new) for us.
-Or, attach the whole log file as an attachment.
-
-What it sets up
----------------
 
 macOS tools:
 
